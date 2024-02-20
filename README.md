@@ -1,11 +1,13 @@
-**#Master Control.it**
+**#MasterControl**
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Business Website</title> <!-- Replace with your business name or relevant title -->
-    <link rel="shortcut icon" href="path/to/your/favicon.ico"> <!-- Replace with the actual path to your favicon -->
+    <title>Your Business Website</title> <!-- Welcome to MorePlan -->
+    <link rel="shortcut icon" href="path/to/your/favicon.ico"> <!--   ![Moreplan_logo (2)](https://github.com/MiriamFerreira13/MiriamFerreira13.github.io/assets/153845722/5e271a73-2cc3-43a8-ae5e-841a037c1e95)
+   -->
     <link rel="apple-touch-icon-precomposed" href="path/to/your/apple-touch-icon.png"> <!-- Replace with the actual path to your Apple touch icon -->
     <link rel="alternate" type="application/rss+xml" href="path/to/your/rss-feed.xml"> <!-- Replace with the actual path to your RSS feed -->
     <link rel="stylesheet" href="https://static.tumblr.com/5ojoydj/NO8s1g7kj/style.min.css"> <!-- Your custom stylesheet -->
