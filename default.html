@@ -1,39 +1,149 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
   <head>
-  <head>
-    <script>
-      const colorModeOverride = window.localStorage.getItem('color model);
-      const hasColorModeOverride = typeof colorModeOverride === 'string';
-      if (hasColorModeOverride) {
-         document.documentElement.setAttribute('data-force-color-mode', colorModeOverride);
-      }
-     </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="image:Hero Top Background Image" content=""/>
+    <meta name="image:Footer Bottom Background Image" content=""/>
+    
+    <meta name="color:Accent Color" content="#F3A2BB" />
+    <meta name="color:Background Page Color" content="#FFFFFF" />
+    <meta name="color:Background Container Color" content="#EEEEEE" />
+    <meta name="color:Border Color" content="#dddddd" />
+    
+    <meta name="color:Header Navigation Background Color" content="#ffffff" />
+    <meta name="color:Header Navigation Link Color" content="#111111" />
+    <meta name="color:Header Navigation Dots One" content="#F3A2BB" />
+    <meta name="color:Header Navigation Dots Two" content="#111111" />
+    
+    <meta name="color:Posts Background Color" content="#ffffff" />
+    <meta name="color:Posts Body Link Color" content="#000000" />
+    <meta name="color:Posts Body Heading Color" content="#111111" />
+    <meta name="color:Posts Body Text Color" content="#555555" />
+    
+    <meta name="color:Button Background Color" content="#111111" />
+    <meta name="color:Button Background Color On Hover" content="#F3A2BB" />
+    <meta name="color:Button Text Color" content="#ffffff" />
+    <meta name="color:Button Text Color On Hover" content="#111111" />
+    
+    <meta name="color:Social Media Button Background Color" content="#111111" />
+    <meta name="color:Social Media Button Background Color On Hover" content="#F3A2BB" />
+    <meta name="color:Social Media Button Text Color" content="#ffffff" />
+    <meta name="color:Social Media Button Text Color On Hover" content="#111111" />
+    
+    <meta name="color:Hero Top Text Color" content="#111111" />
+    <meta name="color:Hero Top Overlay Color" content="#000000" />
+    
+    <meta name="color:Selection Text Color" content="#111111" />
+    <meta name="color:Selection Text Background Color" content="#FFFFE0" />
+    
+    <meta name="select:Blog Layout" content="normal" title="Normal">
+    <meta name="select:Blog Layout" content="masonry" title="Masonry">
+    
+    <meta name="select:Blog Width" content="100%" title="Default">
+    <meta name="select:Blog Width" content="85%" title="Narrower"> 
+    
+    <meta name="select:Blog Post Masonry Columns" content="is-two-column" title="2 Columns">
+    <meta name="select:Blog Post Masonry Columns" content="is-three-column" title="3 Columns">
+    
+    <meta name="select:Search Form" content="is-displayed" title="Show">
+    <meta name="select:Search Form" content="is-hidden" title="Hide">
+    <meta name="select:Search Suggestions" content="is-displayed" title="Show">
+    <meta name="select:Search Suggestions" content="is-hidden" title="Hide"> 
+    
+    <meta name="select:Font Heading" content="Instrument Serif, serif" title="Instrument Serif">
+    <meta name="select:Font Heading" content="'Source Serif 4', serif;" title="Source Serif">
+    <meta name="select:Font Heading" content="Favorit, sans-serif" title="Favorit (Tumblr)">
+    <meta name="select:Font Heading" content="Be Vietnam Pro, sans-serif" title="Be Vietnam Pro">
+    <meta name="select:Font Heading" content="Inter, sans-serif" title="Inter">
+    <meta name="select:Font Heading" content="Roboto, sans-serif" title="Roboto">
+    
+    <meta name="select:Font Body" content="Favorit, sans-serif" title="Favorit (Tumblr)">
+    <meta name="select:Font Body" content="Be Vietnam Pro, sans-serif" title="Be Vietnam Pro">
+    <meta name="select:Font Body" content="Inter, sans-serif" title="Inter">
+    <meta name="select:Font Body" content="Roboto, sans-serif" title="Roboto">
+    <meta name="select:Font Body" content="'Source Sans 3', sans-serif" title="Source Sans Pro">
+    <meta name="select:Font Body" content="Instrument Sans, sans-serif" title="Instrument Sans">
+     
+    <meta name="select:Font Size" content="14" title="14px">
+    <meta name="select:Font Size" content="15" title="15px">
+    <meta name="select:Font Size" content="16" title="16px">
+    
+    <meta name="select:Posts Shorten" content="is-shorten-long-post" title="Yes">
+    <meta name="select:Posts Shorten" content="is-not-shorten-long-post" title="No">
+    
+    <meta name="select:Posts Tags" content="is-displayed" title="Show (Default)">
+    <meta name="select:Posts Tags" content="is-expand" title="On Click">
+    <meta name="select:Posts Tags" content="is-hidden" title="Off">
+    
+    <meta name="select:Posts Date Format" content="is-date-one" title="Posted on 1 January, 1970">
+    <meta name="select:Posts Date Format" content="is-date-two" title="Posted on Thursday, 1 January 1970">
+    <meta name="select:Posts Date Format" content="is-date-three" title="Posted on Thursday January 1st">
+    <meta name="select:Posts Date Format" content="is-date-four" title="Posted at 10.00 PM">
+    <meta name="select:Posts Date Format" content="is-date-five" title="Posted on Tuesday the 1st of January 1970 at 10:00 PM ">
+    
+    <meta name="select:Header Decoration Type" content="is-circle" title="Two Dots">
+    <meta name="select:Header Decoration Type" content="is-avatar" title="Avatar">
+    <meta name="select:Header Decoration Type" content="is-none" title="None">
+    
+    <meta name="select:Header Dark Mode Button" content="is-displayed" title="Show">
+    <meta name="select:Header Dark Mode Button" content="is-hidden" title="Hide">
+    
+    <meta name="select:Hero Overlay Level" content="0.0" title="None (0%)">
+    <meta name="select:Hero Overlay Level" content="0.1" title="10%">
+    <meta name="select:Hero Overlay Level" content="0.2" title="20%">
+    <meta name="select:Hero Overlay Level" content="0.3" title="30%">
+    <meta name="select:Hero Overlay Level" content="0.4" title="40%">
+    <meta name="select:Hero Overlay Level" content="0.5" title="50%">
+    <meta name="select:Hero Overlay Level" content="0.6" title="60%">
+    <meta name="select:Hero Overlay Level" content="0.7" title="70%">
+    <meta name="select:Hero Overlay Level" content="0.8" title="80%">
+    <meta name="select:Hero Overlay Level" content="0.9" title="90%">
+    
+    <meta name="select:Featured Posts Slideshow Section" content="is-hidden" title="Hidden">
+    <meta name="select:Featured Posts Slideshow Section" content="is-displayed" title="Show">
+    
+    <meta name="select:Back To Top Button" content="is-displayed" title="On">
+    <meta name="select:Back To Top Button" content="is-hidden" title="Off">
+    
+    <meta name="select:Footer Visibility" content="is-displayed" title="On">
+    <meta name="select:Footer Visibility" content="is-hidden" title="Off">
+    <meta name="select:Footer Navigation Visibility" content="is-displayed" title="On">
+    <meta name="select:Footer Navigation Visibility" content="is-displayed" title="On">
+    
+    <meta name="text:Hero Top Section Height" content="465px"/>
+    <meta name="text:Footer Section Height" content="350px"/>
+    
+    <meta name="text:Hero Top Button Link" content="https://"/>
+    <meta name="text:Hero Top Button Text Label" content="Button link here"/>
+    <meta name="text:Featured Section Heading Text" content="Featured Section"/>
+    <meta name="text:Featured Section Description Text" content="Hey, this is an example test for the body text of the featured section. You can add the text as many much as possible (or just simply delete this if you don't want. Thank you."/>
+     <meta name="text:Search Suggestions Heading" content="Suggestions for you ✨"/>
+    
+    <meta name='text:Disqus Shortname' content=""/>
+    
+    <meta name="text:Facebook URL" content=""/>
+    <meta name="text:Twitter URL" content=""/>
+    <meta name="text:Patreon URL" content=""/>
+    <meta name="text:Twitch URL" content=""/>
+    <meta name="text:Youtube URL" content=""/>
+    <meta name="text:Instagram URL" content=""/>
+    <meta name="text:Discord URL" content=""/>
+    <meta name="text:Kofi URL" content=""/>
+    <meta name="text:Tiktok URL" content=""/>
+    <meta name="text:Mastodon URL" content=""/>
+    
+    <meta name="if:Selection Color" content="1"/>
+    <meta name="if:Custom Scrollbar" content="1"/>
+   <title>My Website</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
-      </footer>
+    <main>
+        <h1>Welcome to My Website</h1>  
     </main>
+	<script src="index.js"></script>
   </body>
 </html>
