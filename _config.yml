@@ -1,5 +1,15 @@
 title: Welcome to More Plan
 description: More Plan is a clean, responsive data analysis for you.
 theme: jekyll-theme-cayman
+export const SIDEBAR = [
+    { text: "Core", header: true },
+    { text: "Introduction", link: "/core/introduction" },
+    ...,
+    { text: "Components", header: true },
+    { text: "Buttons", link: "/components/buttons" },
+    ...,
+    { text: "New section", header: true },
+    { text: "New component", link: "/new-section/new-component.md" },
+];
 <MainButton primary>Primary</MainButton>
 
