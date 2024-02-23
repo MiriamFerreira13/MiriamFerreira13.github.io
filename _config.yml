@@ -11,5 +11,3 @@ export const SIDEBAR = [
     { text: "New section", header: true },
     { text: "New component", link: "/new-section/new-component.md" },
 ];
-<MainButton primary>Primary</MainButton>
-
