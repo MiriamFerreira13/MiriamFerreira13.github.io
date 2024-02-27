@@ -10,10 +10,12 @@ In today's dynamic business landscape, maintaining control over costs while ensu
 
 
 * * *
-<video controls>
+<video controls autoplay width="400" height="300">
   <source src="https://github.com/MiriamFerreira13/MiriamFerreira13.github.io/assets/153845722/26b3378b-ecdc-4415-8727-207db3017c6b" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
 
 
 * * *
