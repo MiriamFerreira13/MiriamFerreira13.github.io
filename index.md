@@ -4,7 +4,7 @@ layout: default
 
 [Request a Demo](./another-page.html).
 
-**Title: Maximizing Efficiency: Strategies for Cost Control and Economic Stability**
+**Maximizing Efficiency: Strategies for Cost Control and Economic Stability**
 
 In today's dynamic business landscape, maintaining control over costs while ensuring economic stability is paramount. Whether you're a startup aiming for growth or an established enterprise seeking to optimize operations, implementing effective cost control measures can significantly impact your bottom line and overall success. This article delves into strategies and best practices for managing costs and fostering economic resilience within your organization.
 
@@ -66,7 +66,7 @@ In addition to cost control measures, businesses must prioritize building econom
 
 **Cost control and economic stability are integral components of business success in today's challenging economic landscape. By implementing proactive cost management strategies, fostering a culture of financial responsibility, and prioritizing economic resilience, businesses can navigate uncertainties with confidence and position themselves for long-term growth and prosperity. Embrace innovation, adaptability, and strategic planning to achieve sustainable profitability and withstand the tests of time.**
 
-
+**----------------------------------------------------------------------------------------------------------------------------------------------------------------**
 ## Header 2
 
 > This is a blockquote following a header.
@@ -102,14 +102,17 @@ end
 2.  This is an ordered list following a header.
 3.  This is an ordered list following a header.
 
-###### Header 6
+###### Price Options
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+| Description                     | Duration  | Cost per Session |
+|---------------------------------|-----------|------------------|
+| 10 sessions of 1 hour           | 1 hour    | €170             | 
+| 1 session per month (4 hours)   | 4 hours   | €80              |
+| 12 sessions per year (4 hours)  | 4 hours   | €900             | 
+|---------------------------------|-----------|------------------|
+
+
+
 
 ### There's a horizontal rule below this.
 
