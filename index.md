@@ -11,7 +11,8 @@ In today's dynamic business landscape, maintaining control over costs while ensu
 
 * * *
 
-https://github.com/MiriamFerreira13/MiriamFerreira13.github.io/assets/153845722/198c3024-dba2-4dd5-98e3-03567ed68d1e
+https://github.com/MiriamFerreira13/MiriamFerreira13.github.io/assets/153845722/26b3378b-ecdc-4415-8727-207db3017c6b
+
 
 * * *
 
