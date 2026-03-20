@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-
+<p class="text-sm text-emerald-600 font-bold mt-2">
+    Focus: EdTech & Funding Strategy
+</p>
 <p class="mb-4">
     <a href="contact.html" class="text-blue-600 hover:text-blue-800 hover:underline font-medium transition-colors">
         Request a Demo.
