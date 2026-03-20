@@ -10,12 +10,47 @@ layout: default
     </a>
 </p>
 
-<h2 class="text-3xl font-bold text-emerald-600 leading-tight">
-    Maximizing Efficiency: Strategies for Cost Control and Economic Stability
-</h2>
-## **Maximizing Efficiency: Strategies for Cost Control and Economic Stability**
+---
+layout: default
+title: Miriam Ferreira | Project Planner
+---
 
-In today's dynamic business landscape, maintaining control over costs while ensuring economic stability is paramount. Whether you're a startup aiming for growth or an established enterprise seeking to optimize operations, implementing effective cost control measures can significantly impact your bottom line and overall success. This article delves into strategies and best practices for managing costs and fostering economic resilience within your organization.
+# 🌿 Miriam Ferreira: The Growth Act
+> "Identifying specific funding for specific business DNA."
+
+---
+
+### 🚀 Active Service Sprints
+*These are my current functional areas of operation. No sensitive client data is shared here, only the methodology of the work being performed.*
+
+| Service Pillar | Actionable Focus | Growth Stage |
+| :--- | :--- | :--- |
+| **Funding Strategy** | EU/National Grant Sourcing & Filing | Seedling 🌱 |
+| **Market Outreach** | International Lead Gen & Email Campaigns | Budding 🌿 |
+| **Talent Sourcing** | EdTech & Academic Research Recruitment | Budding 🌿 |
+| **Digital Infrastructure**| Rapid Landing Page & One-Pager Deployment | Evergreen 🌳 |
+
+---
+
+### 🛠 The Methodology
+My relationship with clients is built on **High-Execution Partnership**. I don't just find opportunities; I clear the blockers.
+
+1. **Strategic Sourcing:** I analyze the company's DNA to find the perfect funding match.
+2. **Execution:** I handle the "last mile"—from international campaigns to technical setup.
+3. **Transparency:** Every sprint ends with a "Chiusura Attività" report, documenting every blocker found and every solution implemented.
+
+---
+
+### 📬 Let's Cultivate a Project
+If you have a project that needs professional planning and a dedicated growth engine:
+
+[**Request a Consultation / Demo**](contact.html)
+
+---
+
+#### 🌳 Current Capacity
+- **Sprint Status:** Active
+- **Availability:** Open for 1 new project intake this month.
 
 
 * * *
