@@ -1,9 +1,7 @@
 ---
 layout: default
 ---
-<p class="text-sm text-emerald-600 font-bold mt-2">
-    Focus: EdTech & Funding Strategy
-</p>
+
 <p class="mb-4">
     <a href="contact.html" class="text-blue-600 hover:text-blue-800 hover:underline font-medium transition-colors">
         Request a Demo.
@@ -14,35 +12,88 @@ layout: default
 layout: default
 title: Miriam Ferreira | Project Planner
 ---
+<style>
+  /* Importazione Font Interessanti */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
 
-# 🌿 Miriam Ferreira: The Growth Act
-> "Identifying specific funding for specific business DNA."
+  body { 
+    font-family: 'Inter', sans-serif; 
+    color: #1a2b3c; 
+    line-height: 1.6;
+  }
+
+  h1 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #00a896; 
+    border-bottom: 3px solid #00a896; 
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1a2b3c;
+    margin-top: 30px;
+  }
+
+  .highlight-box {
+    background-color: #f0f7f6;
+    border-left: 5px solid #00a896;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+  header ul, .button { display: none !important; }
+</style>
+
+# Miriam Ferreira: The Growth Act
+
+<div class="highlight-box">
+  <strong>Strategic Funding & Execution:</strong> I identify the specific fund for the specific business DNA. I don't just find opportunities; I manage the "last mile" of implementation through <strong>agile project planning</strong>.
+</div>
+
+[Contact Me Directly](contact.html)
+
+# Project Planning Dashboard
+Empowering businesses to bridge the gap between innovation and capital. My approach is built on high-execution partnership and transparent communication.
+
+### What my "Growth Act" includes
+* **Full Pipeline Management:** Identifying EU, National, and Private funding streams.
+* **Operational Sprints:** Rapid deployment of digital assets, landing pages, and one-pagers.
+* **International Outreach:** Managing cross-border email campaigns and lead generation.
+* **Talent Sourcing:** Specialized recruitment for research, EdTech, and social projects.
+* **Blocker Resolution:** Identifying and solving technical or compliance gaps in real-time.
+* **Direct Strategic Support:** Acting as a dedicated engine for your project's lifecycle.
 
 ---
 
-### 🚀 Active Service Sprints
-*These are my current functional areas of operation. No sensitive client data is shared here, only the methodology of the work being performed.*
-
-| Service Pillar | Actionable Focus | Growth Stage |
-| :--- | :--- | :--- |
-| **Funding Strategy** | EU/National Grant Sourcing & Filing | Seedling 🌱 |
-| **Market Outreach** | International Lead Gen & Email Campaigns | Budding 🌿 |
-| **Talent Sourcing** | EdTech & Academic Research Recruitment | Budding 🌿 |
-| **Digital Infrastructure**| Rapid Landing Page & One-Pager Deployment | Evergreen 🌳 |
+### Why this methodology is valuable
+* **Time-Efficient:** I manage the bureaucracy and technical setup so your team can focus on core operations.
+* **Data-Driven:** Every sprint is backed by market analysis and funding compliance research.
+* **Agile & Adaptable:** My work evolves as the project grows—moving from seedling to evergreen stages.
+* **Actionable Reporting:** You receive clear "Activity Closure" reports at the end of every sprint.
 
 ---
 
-### 🛠 The Methodology
-My relationship with clients is built on **High-Execution Partnership**. I don't just find opportunities; I clear the blockers.
+### My Commitment to Privacy & Ethics
+* **Confidentiality First:** I strictly protect client data. Success stories are shared through functional archetypes, never exposing sensitive details.
+* **GDPR Compliance:** All outreach and talent sourcing activities are performed within full legal frameworks.
 
-1. **Strategic Sourcing:** I analyze the company's DNA to find the perfect funding match.
-2. **Execution:** I handle the "last mile"—from international campaigns to technical setup.
-3. **Transparency:** Every sprint ends with a "Chiusura Attività" report, documenting every blocker found and every solution implemented.
+### Next steps
+I am currently managing a selective portfolio of projects. I welcome a brief 15-minute call to discuss your current blockers and assess how my planning methodology can unlock your next funding milestone.
+
+
+**Current Availability:** I operate in focused sprints to ensure high-quality delivery. I have capacity for **one new project intake** for the upcoming quarter.
+
+[🚀 **Request a Consultation / Demo**](contact.html)
 
 ---
 
-### 📬 Let's Cultivate a Project
-If you have a project that needs professional planning and a dedicated growth engine:
+### Key Planning Dates
+* **Q1 Sprint Completion:** 31st March 2026
+* **Q2 Intake Deadline:** 15th April 2026
+
+![Project Planning Image](https://raw.githubusercontent.com/shumpway/shumpway.github.io/main/373A8298-B575-423B-89DA-B8FB3DEF7786.png)
 
 [**Request a Consultation / Demo**](contact.html)
 
