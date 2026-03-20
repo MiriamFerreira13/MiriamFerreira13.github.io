@@ -2,7 +2,6 @@
 layout: default
 ---
 
-[Request a Demo](./another-page.html)
 <p class="mb-4">
     <a href="contact.html" class="text-blue-600 hover:text-blue-800 hover:underline font-medium transition-colors">
         Request a Demo.
