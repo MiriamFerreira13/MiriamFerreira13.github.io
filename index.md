@@ -1,8 +1,4 @@
-/* Add this inside your existing <style> tag */
-a[href*="github.com/MiriamFerreira13"] { 
-    display: none !important; 
-}
----
+
 layout: default
 ---
 
@@ -37,7 +33,8 @@ layout: default
     margin: 20px 0;
     border-radius: 4px;
   }
-  header ul, .button { display: none !important; }
+  header ul, .button, a[href*="github.com"] { display: none !important; }
+
 </style>
 
 # Hi, I'm Miriam 
