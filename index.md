@@ -41,7 +41,6 @@ layout: default
     display: none !important; 
   }
 </style>
-</style>
 
 # Hi, I'm Miriam 
 
