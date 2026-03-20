@@ -48,7 +48,7 @@ layout: default
   <strong>Strategic Funding & Execution:</strong> I identify the specific fund for the specific business DNA. I don't just find funding opportunities; I manage the "last mile" of implementation through <strong>agile project planning</strong>.
 </div>
 
-[Contact Me Directly](contact.html)
+[Contact Me Directly](contact.html) &nbsp; [View LinkedIn Profile](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
 
 # Project Planning Dashboard
 Empowering businesses to bridge the gap between innovation and capital.
