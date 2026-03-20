@@ -1,3 +1,7 @@
+/* Add this inside your existing <style> tag */
+a[href*="github.com/MiriamFerreira13"] { 
+    display: none !important; 
+}
 ---
 layout: default
 ---
