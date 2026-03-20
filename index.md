@@ -33,8 +33,14 @@ layout: default
     margin: 20px 0;
     border-radius: 4px;
   }
-  header ul, .button, a[href*="github.com"] { display: none !important; }
-
+  /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
+  a[href*="github.com"], 
+  header ul, 
+  header p.view, 
+  footer { 
+    display: none !important; 
+  }
+</style>
 </style>
 
 # Hi, I'm Miriam 
