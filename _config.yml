@@ -1,3 +1,5 @@
-title: Welcome to More Plan
-description: More Plan is a clean, responsive consultant for your business.
-theme: jekyll-theme-cayman
+remote_theme: pages-themes/minimal@v0.2.0
+title: Projects Garden
+description: Fund Platform
+github:
+  is_project_page: false
