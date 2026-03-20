@@ -73,16 +73,16 @@ I am currently managing a selective portfolio of projects. I welcome a brief 15-
 ---
 
 ### Key Planning Dates
-* **Deadline application:** 31st March 2026
-* **Our Sprint Project Start-Date:** 15th April 2026
+* **Deadline application:** 31.03.2026
+* **Our Sprint Project Start-Date:** 15.05.2026
 
 
 ## Price Options
 
 | Description                     | Duration  | Total Cost       |
 |---------------------------------|-----------|------------------|
-| 10 sessions                     | 30 minutes| €125             | 
-| 1 session                       | 1 hour    | €35              |
+| 10 sessions                     | 30 minutes| €120             | 
+| 1 session                       | 1 hour    | €30              |
 | 1 day for week                  | We can talk                  | 
 |---------------------------------|-----------|------------------|
 
