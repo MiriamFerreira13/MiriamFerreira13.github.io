@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% raw %}
 <style>
   /* Importazione Font Interessanti */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
@@ -34,21 +35,69 @@ layout: default
     border-radius: 4px;
   }
 
-<div class="container-classico">
-    
-    <!-- Imagem Alinhada à Esquerda -->
-    <img src="https://via.placeholder.com/150" alt="Exemplo Esquerda" class="img-esquerda">
-    <p>Este parágrafo demonstra como o texto flui ao redor de uma imagem alinhada à esquerda. A imagem 'flutua' para o lado e o texto ocupa o espaço restante, ajustando-se automaticamente. É ótimo para layouts simples onde se deseja um efeito de revista.</p>
+  /* --- ADAPTAÇÃO DAS IMAGENS FLUTUANTES (FLOAT) --- */
+  .container-classico {
+    margin: 30px 0;
+  }
 
-    <p style="clear: both; margin-top: 20px;">Utilizamos 'clear: both' aqui apenas para separar os exemplos visualmente.</p>
+  .container-classico::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    <!-- Imagem Alinhada à Direita -->
-    <img src="https://via.placeholder.com/150" alt="Exemplo Direita" class="img-direita">
-    <p>Neste caso, a imagem está alinhada à direita. O texto começa à esquerda e contorna a imagem assim que a encontra. É importante adicionar margens (margins) às imagens flutuantes para que o texto não fique colado à borda da foto.</p>
+  .img-esquerda {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    max-width: 250px; /* Ajusta o tamanho da imagem */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
 
-</div>
-  
-</div>
+  .img-direita {
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    max-width: 250px; /* Ajusta o tamanho da imagem */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  /* ESTILOS DOS CARDS (O que vais aprender) */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: #f0f7f6;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #00a896;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #1a2b3c;
+  }
+
+  /* Responsividade para Telemóveis */
+  @media (max-width: 600px) {
+    .img-esquerda, .img-direita {
+      float: none;
+      display: block;
+      margin: 0 auto 15px auto;
+      max-width: 100%;
+    }
+  }
+
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
   header ul, 
@@ -57,6 +106,7 @@ layout: default
     display: none !important; 
   }
 </style>
+{% endraw %}
 
 # Hey, chamo-me Miriam e não sou um AI.
 
@@ -69,6 +119,25 @@ layout: default
   <a href="https://www.linkedin.com/in/miriamiferreira/" class="btn-linkedin">Vê o meu LinkedIn Perfil</a>
 </p>
 
+<!-- SECÇÃO COM FLOAT (IMAGENS ADAPTADAS) -->
+<div class="container-classico">
+    
+    <!-- Imagem 1 na Esquerda -->
+    <img src="imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="img-esquerda">
+    <h2>Da Ideia à Estrutura</h2>
+    <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel de forma simples e estruturada.</p>
+
+    <!-- Limpa a flutuação para a próxima secção ficar alinhada -->
+    <div style="clear: both; margin-top: 40px;"></div>
+
+    <!-- Imagem 2 na Direita -->
+    <img src="imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="img-direita">
+    <h2>Avançar com Autonomia</h2>
+    <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém e com total confiança no processo.</p>
+
+</div>
+
+<div style="clear: both; margin-top: 40px;"></div>
 
 # Ser criativo também se aprende
 A prática para desenhar projetos, prever custos e avançar sem medo.
