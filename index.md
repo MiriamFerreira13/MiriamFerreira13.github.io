@@ -111,3 +111,51 @@ Marca uma chamada gratuita de 15 minutos
 para perceber qual o formato de formação mais adequado a ti ou à tua organização.
 
 **Disponibilidade atual:** Vagas abertas para o próximo trimestre. Turmas a partir de setembro.
+
+/* ESTILOS DAS IMAGENS LATERAIS (FLEXBOX) */
+  .seccao-destaques {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 0;
+  }
+
+  .item-destaque {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .destaque-img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    object-fit: cover;
+  }
+
+  .destaque-texto {
+    flex: 1;
+  }
+
+  .destaque-texto h2 {
+    margin-top: 0;
+    color: #00a896;
+  }
+
+  /* Responsividade para Telemóvel */
+  @media (max-width: 768px) {
+    .item-destaque {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .destaque-img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
