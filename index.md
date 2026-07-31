@@ -34,7 +34,7 @@ layout: default
     border-radius: 4px;
   }
 
-  /* SECÇÃO DE DESTAQUES COM IMAGENS DE FUNDO */
+  /* SECÇÃO DE DESTAQUES COM IMAGENS */
   .seccao-destaques {
     display: flex;
     flex-direction: column;
@@ -52,26 +52,14 @@ layout: default
     padding: 24px;
   }
 
-  /* Caixa reservada para a imagem */
+  /* Estilo visual das imagens nas laterais */
   .caixa-imagem {
     width: 250px;
     height: 180px;
     border-radius: 8px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    object-fit: cover;
     flex-shrink: 0;
     box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  }
-
-  /* Apontando para os teus ficheiros de imagem */
-  .bg-imagem-1 {
-  background-image: url('{{ site.baseurl }}/imagem-1.jpg.jpeg');
-}
-  }
-
-  .bg-imagem-2 {
-    background-image: url('{{ site.baseurl }}/imagem-2.jpg.jpeg');
   }
 
   .destaque-texto {
@@ -135,12 +123,12 @@ layout: default
   <a href="https://www.linkedin.com/in/miriamiferreira/" class="btn-linkedin">Vê o meu LinkedIn Perfil</a>
 </p>
 
-<!-- SECÇÃO DE IMAGENS DE FUNDO NAS LATERAIS -->
+<!-- SECÇÃO DE IMAGENS NAS LATERAIS -->
 <div class="seccao-destaques">
   
   <!-- 1. Imagem na Esquerda, Texto na Direita -->
   <div class="item-destaque">
-    <div class="caixa-imagem bg-imagem-1"></div>
+    <img src="imagem-1.jpeg" alt="Da Ideia à Estrutura" class="caixa-imagem">
     <div class="destaque-texto">
       <h2>Da Ideia à Estrutura</h2>
       <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
@@ -153,7 +141,7 @@ layout: default
       <h2>Avançar com Autonomia</h2>
       <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém.</p>
     </div>
-    <div class="caixa-imagem bg-imagem-2"></div>
+    <img src="imagem-2.jpeg" alt="Avançar com Autonomia" class="caixa-imagem">
   </div>
 
 </div>
@@ -188,18 +176,16 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 ### Para quem é
 
-- **Formação Individual:** acompanhamento 1-para-1, ao teu ritmo, focado no teu projeto real.
-- **Formação para Organizações:** workshops e programas à medida para equipas, associações e ONGs.
+- Formação Individual: acompanhamento 1-para-1, ao teu ritmo, focado no teu projeto real.
+- Formação para Organizações: workshops e programas à medida para equipas, associações e ONGs.
 
----
 
 ### Metodologia
 
 - Prática desde a primeira sessão — aprende-se a fazer, fazendo.
 - Passo a passo, sem teoria desnecessária.
-- Disponível em Português (PT/BR), Italiano e Inglês.
 
----
+
 
 ## Formatos e Preços
 
@@ -215,7 +201,9 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 Tens um projeto em mente e não sabes por onde começar? 
 Marca uma chamada gratuita de 15 minutos 
+
 [Envia email](contact.html)
+
 para perceber qual o formato de formação mais adequado a ti ou à tua organização.
 
 **Disponibilidade atual:** Vagas abertas para o próximo trimestre. Turmas a partir de setembro.
