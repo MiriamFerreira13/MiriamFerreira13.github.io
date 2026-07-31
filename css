@@ -1,2 +1,27 @@
 /* This hides the "Hosted on GitHub Pages" footer text */
 footer { display: none !important; }
+
+
+/* Classes para as imagens */
+.img-esquerda {
+    float: left; /* Flutua para a esquerda */
+    margin-right: 20px; /* Cria espaço entre a imagem e o texto à direita */
+    margin-bottom: 10px; /* Cria espaço abaixo se o texto continuar */
+    max-width: 100%; /* Garante responsividade básica */
+    height: auto;
+}
+
+.img-direita {
+    float: right; /* Flutua para a direita */
+    margin-left: 20px; /* Cria espaço entre o texto à esquerda e a imagem */
+    margin-bottom: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Opcional: Garante que o container não 'encolha' se as imagens forem maiores que o texto */
+.container-classico::after {
+    content: "";
+    display: table;
+    clear: both;
+}
