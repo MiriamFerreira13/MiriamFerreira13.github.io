@@ -107,6 +107,4 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 Tens um projeto em mente e não sabes por onde começar? Marca uma chamada gratuita de 15 minutos para perceber qual o formato de formação mais adequado a ti ou à tua organização.
 
-**Disponibilidade atual:** [ex. vagas abertas para o próximo trimestre / turmas a partir de setembro].
-|---------------------------------|-----------|------------------|
-```
+**Disponibilidade atual:** Vagas abertas para o próximo trimestre. Turmas a partir de setembro.
