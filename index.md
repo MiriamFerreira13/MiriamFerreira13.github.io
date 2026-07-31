@@ -8,11 +8,6 @@ layout: default
 
 <style>
 
-  /* Importazione Font Interessanti */
-
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
-
-
 
   body { 
 
