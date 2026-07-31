@@ -12,6 +12,74 @@ layout: default
     line-height: 1.6;
   }
 
+  /* ESTILOS DAS IMAGENS LATERAIS (FLEXBOX) */
+  .seccao-destaques {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 0;
+  }
+
+  .item-destaque {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+  }
+
+  .destaque-img {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    object-fit: cover;
+  }
+
+  .destaque-texto {
+    flex: 1;
+  }
+
+  .destaque-texto h2 {
+    margin-top: 0;
+    color: #00a896;
+  }
+
+  /* ESTILOS DOS CARDS (O que vais aprender) */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: #f0f7f6;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #00a896;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #1a2b3c;
+  }
+
+  /* Responsividade para ecrãs pequenos (Telemóveis) */
+  @media (max-width: 768px) {
+    .item-destaque {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .destaque-img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
   h1 { 
     font-family: 'Montserrat', sans-serif;
     color: #00a896; 
