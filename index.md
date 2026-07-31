@@ -55,44 +55,74 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 ### Eliminar as fontes de distração, liberta um espaço necessário para que possamos produzir grandes coisas. 
 
-* **Full Pipeline Management:** Identifying EU, National, and Private funding streams.
-* **Operational Sprints:** Rapid deployment of digital assets, landing pages, and one-pagers.
-* **International Outreach:** Managing cross-border email campaigns and lead generation for create strong synergies.
-* **Connect 1-to-1:** Specialized matchmaking for research, technical or social projects.
-* **Direct Strategic Support:** Acting as a dedicated engine for your project's lifecycle.
+<div class="lang-badges">
+  <span>🇵🇹 Português (PT)</span>
+  <span>🇧🇷 Português (BR)</span>
+  <span>🇮🇹 Italiano</span>
+  <span>🇬🇧 English</span>
+</div>
+
+[Contactar Diretamente](https://miriamferreira13.github.io/contact.html) [Ver LinkedIn](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
+
+<div class="feature-bar">
+  <div>👤 Formação Individual</div>
+  <div>🏢 Formação para Organizações</div>
+  <div>🛠️ 100% Prática</div>
+  <div>🌍 4 Idiomas</div>
+</div>
+
+## O que vais aprender
+
+<div class="cards-grid">
+  <div class="card">
+    <h3>Desenhar o Projeto</h3>
+    <p>Da ideia à estrutura: objetivos, atividades, cronograma e indicadores — sem te perderes em teoria.</p>
+  </div>
+  <div class="card">
+    <h3>Prever o Orçamento</h3>
+    <p>Aprende a construir e justificar o teu próprio orçamento, com uma base realista e credível.</p>
+  </div>
+  <div class="card">
+    <h3>Encontrar Recursos</h3>
+    <p>Sabe onde procurar financiamento, parceiros e ferramentas — sem depender de mais ninguém.</p>
+  </div>
+  <div class="card">
+    <h3>Avançar Sem Medo</h3>
+    <p>Um plano passo a passo para começares a implementar já, mesmo sem experiência prévia.</p>
+  </div>
+</div>
 
 ---
 
-### Why this methodology is valuable
-* **Time-Efficient:** I manage the bureaucracy and technical setup so your team can focus on core operations.
-* **Data-Driven:** Every sprint is backed by market analysis and funding compliance research.
-* **Agile & Adaptable:** My work evolves as the project grows—moving from seedling to evergreen stages.
-* **Actionable Reporting:** You receive clear "Activity Closure" reports at the end of every sprint.
+### Para quem é
+
+- **Formação Individual:** acompanhamento 1-para-1, ao teu ritmo, focado no teu projeto real.
+- **Formação para Organizações:** workshops e programas à medida para equipas, associações e ONGs.
 
 ---
 
-### Next steps
-I am currently managing a selective portfolio of projects. I welcome a brief 15-minute call to discuss your current blockers and assess how my planning methodology can unlock your next funding milestone.
+### Metodologia
 
-
-**Current Availability:** I operate in focused sprints to ensure high-quality delivery. I have capacity for **one new project intake** for the upcoming quarter.
+- Prática desde a primeira sessão — aprende-se a fazer, fazendo.
+- Passo a passo, sem teoria desnecessária.
+- Disponível em Português (PT/BR), Italiano e Inglês.
 
 ---
 
-### Key Planning Dates
-* **Deadline application:** 31.03.2026
-* **Our Sprint Project Start-Date:** 15.05.2026
+## Formatos e Preços
 
+| Formato                  | Duração        | Investimento        |
+| ------------------------- | -------------- | -------------------- |
+| 5 sessões         | 2 horas    | €250              |
+| Sessão individual          | 1 hora    | €25              |
+| Workshop para organizações | meio-dia/dia | Sob consulta          |
 
-## Price Options
+---
 
-| Description                     | Duration  | Total Cost       |
+### Próximos Passos
+
+Tens um projeto em mente e não sabes por onde começar? Marca uma chamada gratuita de 15 minutos para perceber qual o formato de formação mais adequado a ti ou à tua organização.
+
+**Disponibilidade atual:** [ex. vagas abertas para o próximo trimestre / turmas a partir de setembro].
 |---------------------------------|-----------|------------------|
-| 10 sessions                     | 30 minutes| €120             | 
-| 1 session                       | 1 hour    | €30              |
-| 1 day for week                  | We can talk                  | 
-|---------------------------------|-----------|------------------|
-
-```
-Next Available Sprint Window: 31.08.2026
 ```
