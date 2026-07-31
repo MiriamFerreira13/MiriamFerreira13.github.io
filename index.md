@@ -12,6 +12,28 @@ layout: default
     line-height: 1.6;
   }
 
+  h1 { 
+    font-family: 'Montserrat', sans-serif;
+    color: #00a896; 
+    border-bottom: 3px solid #00a896; 
+    padding-bottom: 15px;
+    letter-spacing: -1px;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1a2b3c;
+    margin-top: 30px;
+  }
+
+  .highlight-box {
+    background-color: #f0f7f6;
+    border-left: 5px solid #00a896;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+  }
+
   /* ESTILOS DAS IMAGENS LATERAIS (FLEXBOX) */
   .seccao-destaques {
     display: flex;
@@ -80,27 +102,6 @@ layout: default
     }
   }
 
-  h1 { 
-    font-family: 'Montserrat', sans-serif;
-    color: #00a896; 
-    border-bottom: 3px solid #00a896; 
-    padding-bottom: 15px;
-    letter-spacing: -1px;
-  }
-
-  h2 {
-    font-family: 'Montserrat', sans-serif;
-    color: #1a2b3c;
-    margin-top: 30px;
-  }
-
-  .highlight-box {
-    background-color: #f0f7f6;
-    border-left: 5px solid #00a896;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 4px;
-  }
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
   header ul, 
@@ -113,10 +114,36 @@ layout: default
 # Hey, chamo-me Miriam e não sou um AI.
 
 <div class="highlight-box">
-  <strong>É urgente:</strong> . "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
+  <strong>É urgente:</strong> "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
 </div>
 
-[Contactos](contact.html) &nbsp; [Vê o meu LinkedIn Perfil](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
+<p>
+  <a href="contact.html">Contactos</a> &nbsp; 
+  <a href="https://www.linkedin.com/in/miriamiferreira/" class="btn-linkedin">Vê o meu LinkedIn Perfil</a>
+</p>
+
+<!-- SECÇÃO COM AS IMAGENS NAS LATERAIS -->
+<div class="seccao-destaques">
+  
+  <!-- Imagem 1 na Esquerda -->
+  <div class="item-destaque">
+    <img src="imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="destaque-img">
+    <div class="destaque-texto">
+      <h2>Da Ideia à Estrutura</h2>
+      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
+    </div>
+  </div>
+
+  <!-- Imagem 2 na Direita -->
+  <div class="item-destaque">
+    <div class="destaque-texto">
+      <h2>Avançar com Autonomia</h2>
+      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, mesmo sem experiência prévia.</p>
+    </div>
+    <img src="imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="destaque-img">
+  </div>
+
+</div>
 
 # Ser criativo também se aprende
 A prática para desenhar projetos, prever custos e avançar sem medo.
@@ -163,11 +190,11 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 ## Formatos e Preços
 
-| Formato                  | Duração        | Investimento        |
-| ------------------------- | -------------- | -------------------- |
-| 5 sessões         | 2 horas    | €250              |
-| Sessão individual          | 1 hora    | €25              |
-| Workshop para organizações | meio-dia/dia | Sob consulta          |
+| Formato                   | Duração      | Investimento         |
+| ------------------------- | ------------ | -------------------- |
+| 5 sessões                 | 2 horas      | €250                 |
+| Sessão individual         | 1 hora       | €25                  |
+| Workshop para organizações | meio-dia/dia | Sob consulta         |
 
 ---
 
@@ -179,51 +206,3 @@ Marca uma chamada gratuita de 15 minutos
 para perceber qual o formato de formação mais adequado a ti ou à tua organização.
 
 **Disponibilidade atual:** Vagas abertas para o próximo trimestre. Turmas a partir de setembro.
-
-/* ESTILOS DAS IMAGENS LATERAIS (FLEXBOX) */
-  .seccao-destaques {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 40px 0;
-  }
-
-  .item-destaque {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 24px;
-  }
-
-  .destaque-img {
-    width: 40%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    object-fit: cover;
-  }
-
-  .destaque-texto {
-    flex: 1;
-  }
-
-  .destaque-texto h2 {
-    margin-top: 0;
-    color: #00a896;
-  }
-
-  /* Responsividade para Telemóvel */
-  @media (max-width: 768px) {
-    .item-destaque {
-      flex-direction: column !important;
-      text-align: center;
-    }
-    .destaque-img {
-      width: 100%;
-      max-width: 100%;
-    }
-  }
