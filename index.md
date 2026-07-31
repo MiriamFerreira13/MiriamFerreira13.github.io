@@ -66,7 +66,8 @@ layout: default
 
   /* Apontando para os teus ficheiros de imagem */
   .bg-imagem-1 {
-    background-image: url('{{ site.baseurl }}/imagem-1.jpg.jpeg');
+  background-image: url('{{ site.baseurl }}/imagem-1.jpg.jpeg');
+}
   }
 
   .bg-imagem-2 {
