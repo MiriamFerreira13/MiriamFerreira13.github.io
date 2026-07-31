@@ -70,38 +70,6 @@ layout: default
     color: #00a896;
   }
 
-  /* ESTILOS DOS CARDS (O que vais aprender) */
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-
-  .card {
-    background-color: #f0f7f6;
-    padding: 20px;
-    border-radius: 8px;
-    border-top: 4px solid #00a896;
-  }
-
-  .card h3 {
-    margin-top: 0;
-    color: #1a2b3c;
-  }
-
-  /* Responsividade para ecrãs pequenos (Telemóveis) */
-  @media (max-width: 768px) {
-    .item-destaque {
-      flex-direction: column !important;
-      text-align: center;
-    }
-    .destaque-img {
-      width: 100%;
-      max-width: 100%;
-    }
-  }
-
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
   header ul, 
