@@ -1,4 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes
+remote_theme           : "mmistakes/minimal-mistakes"
 title: Miriam Ferreira | Lança o teu Projeto Criativo em 5 dias
 description: Formação prática para desenhar projetos, prever orçamentos e avançar sem medo
 github:
