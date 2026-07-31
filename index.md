@@ -81,7 +81,28 @@ layout: default
     margin-top: 0;
     color: #00a896;
   }
+<!-- SECÇÃO DE IMAGENS DE FUNDO NAS LATERAIS -->
+<div class="seccao-destaques">
+  
+  <!-- 1. Imagem na Esquerda, Texto na Direita -->
+  <div class="item-destaque">
+    <div class="caixa-imagem bg-imagem-1"></div>
+    <div class="destaque-texto">
+      <h2>Da Ideia à Estrutura</h2>
+      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
+    </div>
+  </div>
 
+  <!-- 2. Texto na Esquerda, Imagem na Direita -->
+  <div class="item-destaque">
+    <div class="destaque-texto">
+      <h2>Avançar com Autonomia</h2>
+      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém.</p>
+    </div>
+    <div class="caixa-imagem bg-imagem-2"></div>
+  </div>
+
+</div>
   /* ESTILOS DOS CARDS (O que vais aprender) */
   .cards-grid {
     display: grid;
