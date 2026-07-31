@@ -122,28 +122,6 @@ layout: default
   <a href="https://www.linkedin.com/in/miriamiferreira/" class="btn-linkedin">Vê o meu LinkedIn Perfil</a>
 </p>
 
-<!-- SECÇÃO COM AS IMAGENS NAS LATERAIS -->
-<div class="seccao-destaques">
-  
-  <!-- Imagem 1 na Esquerda -->
-  <div class="item-destaque">
-    <img src="imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="destaque-img">
-    <div class="destaque-texto">
-      <h2>Da Ideia à Estrutura</h2>
-      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
-    </div>
-  </div>
-
-  <!-- Imagem 2 na Direita -->
-  <div class="item-destaque">
-    <div class="destaque-texto">
-      <h2>Avançar com Autonomia</h2>
-      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, mesmo sem experiência prévia.</p>
-    </div>
-    <img src="imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="destaque-img">
-  </div>
-
-</div>
 
 # Ser criativo também se aprende
 A prática para desenhar projetos, prever custos e avançar sem medo.
