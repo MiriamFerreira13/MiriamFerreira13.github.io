@@ -1,98 +1,163 @@
----
-layout: default
----
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miriam Ferreira</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
 
-  body { font-family: 'Inter', sans-serif; color: #1a2b3c; line-height: 1.6; }
-  h1 { font-family: 'Montserrat', sans-serif; color: #00a896; border-bottom: 3px solid #00a896; padding-bottom: 15px; letter-spacing: -1px; }
-  h2 { font-family: 'Montserrat', sans-serif; color: #1a2b3c; margin-top: 30px; }
-  .highlight-box { background-color: #f0f7f6; border-left: 5px solid #00a896; padding: 20px; margin: 20px 0; border-radius: 4px; }
+    body { 
+      font-family: 'Inter', sans-serif; 
+      color: #1a2b3c; 
+      line-height: 1.6;
+      /* Imagem de Fundo Global */
+      background-image: url('imagem-1.jpg.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 30px 15px;
+    }
 
-  .lang-badges { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0 25px; }
-  .lang-badges span { background: #00a896; color: #fff; font-size: 13px; font-weight: 600; padding: 5px 12px; border-radius: 20px; }
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.93);
+      padding: 35px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      backdrop-filter: blur(4px);
+    }
 
-  .feature-bar { display: flex; flex-wrap: wrap; gap: 15px; margin: 25px 0; padding: 18px; background: #1a2b3c; border-radius: 6px; }
-  .feature-bar div { color: #fff; font-size: 14px; font-weight: 600; flex: 1; min-width: 140px; text-align: center; }
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      color: #00a896;
+      border-bottom: 3px solid #00a896;
+      padding-bottom: 10px;
+      margin-top: 0;
+    }
 
-  .cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin: 20px 0; }
-  .card { border: 1px solid #dce8e6; border-radius: 8px; padding: 20px; background: #fff; }
-  .card h3 { color: #00a896; font-size: 17px; margin-top: 0; }
-  .card p { font-size: 14px; margin-bottom: 0; }
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      color: #1a2b3c;
+      margin-top: 30px;
+    }
 
-  a[href*="github.com"], header ul, header p.view, footer { display: none !important; }
-</style>
+    h3 {
+      color: #00a896;
+    }
 
-# Olá, sou a Miriam
+    a {
+      color: #00a896;
+      font-weight: 600;
+    }
 
-**Formação prática em Gestão de Projetos.** Ensino pessoas e organizações a desenhar projetos com clareza, prever os seus próprios orçamentos e avançar sem medo — com um método passo a passo, sem grandes teorias.
+    .btn {
+      display: inline-block;
+      background: #00a896;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 10px;
+    }
 
-<div class="lang-badges">
-  <span>🇵🇹 Português (PT)</span>
-  <span>🇧🇷 Português (BR)</span>
-  <span>🇮🇹 Italiano</span>
-  <span>🇬🇧 English</span>
-</div>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
 
-[Contactar Diretamente](https://miriamferreira13.github.io/contact.html) [Ver LinkedIn](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 10px;
+      text-align: left;
+    }
 
-<div class="feature-bar">
-  <div>👤 Formação Individual</div>
-  <div>🏢 Formação para Organizações</div>
-  <div>🛠️ 100% Prática</div>
-  <div>🌍 4 Idiomas</div>
-</div>
+    th {
+      background-color: #f1f5f9;
+    }
+  </style>
+</head>
+<body>
 
-## O que vais aprender
+  <div class="container">
 
-<div class="cards-grid">
-  <div class="card">
-    <h3>Desenhar o Projeto</h3>
-    <p>Da ideia à estrutura: objetivos, atividades, cronograma e indicadores — sem te perderes em teoria.</p>
+    <h1>Hey, chamo-me Miriam e não sou um AI.</h1>
+    <p>Ser criativo também se aprende. A minha missão é dar-te a prática para desenhares projetos, preveres custos e avançares sem medo.</p>
+    <p><a href="https://www.linkedin.com/in/miriamiferreira/" target="_blank">Vê o meu perfil no LinkedIn</a></p>
+
+    <hr>
+
+    <h2>Expectativas: O que alinhamos juntos?</h2>
+    <p><strong>É urgente:</strong> Este é o momento para dizeres <em>o que te vem à cabeça</em> e começarmos a construir.</p>
+
+    <h3>O que a escola traz para ti:</h3>
+    <ul>
+      <li>Método 100% prático desde a primeira sessão (aprende-se a fazer, fazendo).</li>
+      <li>Passo a passo estruturado, sem teorias complexas.</li>
+      <li>Eliminação de distrações para libertar espaço criativo.</li>
+    </ul>
+
+    <h3>O que tu trazes para a escola:</h3>
+    <ul>
+      <li>Vontade de tirar as tuas ideias da cabeça e colocá-las no papel.</li>
+      <li>Abertura para aprender a prever custos e gerir recursos.</li>
+      <li>Compromisso em dar o primeiro passo com autonomia.</li>
+    </ul>
+
+    <hr>
+
+    <h2>O que vais aprender</h2>
+    <ul>
+      <li><strong>Da Ideia à Estrutura:</strong> Objetivos claros, atividades, cronograma e indicadores.</li>
+      <li><strong>Prever o Orçamento:</strong> Aprende a construir e justificar o teu próprio orçamento realista.</li>
+      <li><strong>Encontrar Recursos:</strong> Onde procurar financiamento, parceiros e ferramentas essenciais.</li>
+      <li><strong>Avançar Sem Medo:</strong> Um plano prático para começares a implementar imediatamente.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Formatos e Preços</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Formato</th>
+          <th>Duração</th>
+          <th>Investimento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Sessão individual</strong></td>
+          <td>1 hora</td>
+          <td>€5</td>
+        </tr>
+        <tr>
+          <td><strong>Programa Completo (5 sessões)</strong></td>
+          <td>2 horas cada</td>
+          <td>€100</td>
+        </tr>
+        <tr>
+          <td><strong>Workshop Organizações</strong></td>
+          <td>Meio-dia / Dia</td>
+          <td>Sob consulta</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Como Agendar</h2>
+    <p>Tens um projeto em mente e não sabes por onde começar? Marca uma chamada inicial para percebermos qual o formato ideal para ti.</p>
+    <p><a href="contact.html" class="btn">Agendar por Email</a></p>
+
+    <p><small><em>Disponibilidade atual: Vagas abertas para o próximo trimestre. Turmas a partir de setembro.</em></small></p>
+
   </div>
-  <div class="card">
-    <h3>Prever o Orçamento</h3>
-    <p>Aprende a construir e justificar o teu próprio orçamento, com uma base realista e credível.</p>
-  </div>
-  <div class="card">
-    <h3>Encontrar Recursos</h3>
-    <p>Sabe onde procurar financiamento, parceiros e ferramentas — sem depender de mais ninguém.</p>
-  </div>
-  <div class="card">
-    <h3>Avançar Sem Medo</h3>
-    <p>Um plano passo a passo para começares a implementar já, mesmo sem experiência prévia.</p>
-  </div>
-</div>
 
----
-
-### Para quem é
-
-- **Formação Individual:** acompanhamento 1-para-1, ao teu ritmo, focado no teu projeto real.
-- **Formação para Organizações:** workshops e programas à medida para equipas, associações e ONGs.
-
----
-
-### Metodologia
-
-- Prática desde a primeira sessão — aprende-se a fazer, fazendo.
-- Passo a passo, sem teoria desnecessária.
-- Disponível em Português (PT/BR), Italiano e Inglês.
-
----
-
-## Formatos e Preços
-
-| Formato                  | Duração        | Investimento        |
-| ------------------------- | -------------- | -------------------- |
-| Pacote [X] sessões         | [X] minutos    | €[valor]              |
-| Sessão individual          | [X] hora(s)    | €[valor]              |
-| Workshop para organizações | [meio-dia/dia] | Sob consulta          |
-
----
-
-### Próximos Passos
-
-Tens um projeto em mente e não sabes por onde começar? Marca uma chamada gratuita de 15 minutos para perceber qual o formato de formação mais adequado a ti ou à tua organização.
-
-**Disponibilidade atual:** [ex. vagas abertas para o próximo trimestre / turmas a partir de setembro].
+</body>
+</html>
