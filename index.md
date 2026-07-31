@@ -34,42 +34,26 @@ layout: default
     border-radius: 4px;
   }
 
-  /* ESTILOS DAS IMAGENS LATERAIS (FLEXBOX) */
-  .seccao-destaques {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin: 40px 0;
-  }
+<!-- SECÇÃO COM AS IMAGENS NAS LATERAIS -->
+<div class="seccao-destaques">
+  
+  <div class="item-destaque">
+    <img src="./imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="destaque-img">
+    <div class="destaque-texto">
+      <h2>Da Ideia à Estrutura</h2>
+      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
+    </div>
+  </div>
 
-  .item-destaque {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background: #f8fafc;
-    border: 1px solid #e2e8f0;
-    border-radius: 12px;
-    padding: 24px;
-  }
+  <div class="item-destaque">
+    <div class="destaque-texto">
+      <h2>Avançar com Autonomia</h2>
+      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, mesmo sem experiência prévia.</p>
+    </div>
+    <img src="./imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="destaque-img">
+  </div>
 
-  .destaque-img {
-    width: 40%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    object-fit: cover;
-  }
-
-  .destaque-texto {
-    flex: 1;
-  }
-
-  .destaque-texto h2 {
-    margin-top: 0;
-    color: #00a896;
-  }
-
+</div>
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
   header ul, 
