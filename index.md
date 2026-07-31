@@ -35,21 +35,17 @@ layout: default
     border-radius: 4px;
   }
 
-<!-- SECÇÃO COM FLOAT (IMAGENS CORRIGIDAS PARA JEKYLL) -->
-<div class="container-classico">
-    
-    <!-- Imagem 1 na Esquerda -->
-    <img src="{{ 'imagem-1.jpg.jpeg' | relative_url }}" alt="Desenhar o Projeto" class="img-esquerda">
-    <h2>Da Ideia à Estrutura</h2>
-    <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel de forma simples e estruturada.</p>
+![Desenhar o Projeto](./imagem-1.jpg.jpeg)
 
-    <!-- Limpa a flutuação para a próxima secção ficar alinhada -->
-    <div style="clear: both; margin-top: 40px;"></div>
+## Da Ideia à Estrutura
+Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.
 
-    <!-- Imagem 2 na Direita -->
-    <img src="{{ 'imagem-2.jpg.jpeg' | relative_url }}" alt="Avançar Sem Medo" class="img-direita">
-    <h2>Avançar com Autonomia</h2>
-    <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém e com total confiança no processo.</p>
+---
+
+![Avançar Sem Medo](./imagem-2.jpg.jpeg)
+
+## Avançar com Autonomia
+Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente.
 
 </div>
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
