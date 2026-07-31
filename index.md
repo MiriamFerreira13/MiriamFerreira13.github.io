@@ -2,9 +2,8 @@
 layout: default
 ---
 
-{% raw %}
 <style>
-  /* Importazione Font Interessanti */
+  /* Importação de Fonts */
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Inter:wght@400;600&display=swap');
 
   body { 
@@ -35,20 +34,87 @@ layout: default
     border-radius: 4px;
   }
 
-![Desenhar o Projeto](./imagem-1.jpg.jpeg)
+  /* --- SECÇÃO DE DESTAQUES COM IMAGENS DE FUNDO --- */
+  .seccao-destaques {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 40px 0;
+  }
 
-## Da Ideia à Estrutura
-Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.
+  .item-destaque {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 24px;
+  }
 
----
+  /* Caixa reservada para a imagem de fundo */
+  .caixa-imagem {
+    width: 250px;
+    height: 180px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-shrink: 0; /* Impede a imagem de encolher */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
 
-![Avançar Sem Medo](./imagem-2.jpg.jpeg)
+  /* Aplicação das imagens como fundo (apontando para o ficheiro correto) */
+  .bg-imagem-1 {
+    background-image: url('./imagem-1.jpg.jpeg');
+  }
 
-## Avançar com Autonomia
-Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente.
+  .bg-imagem-2 {
+    background-image: url('./imagem-2.jpg.jpeg');
+  }
 
-</div>
-  /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
+  .destaque-texto {
+    flex: 1;
+  }
+
+  .destaque-texto h2 {
+    margin-top: 0;
+    color: #00a896;
+  }
+
+  /* ESTILOS DOS CARDS (O que vais aprender) */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: #f0f7f6;
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #00a896;
+  }
+
+  .card h3 {
+    margin-top: 0;
+    color: #1a2b3c;
+  }
+
+  /* Responsividade para Telemóveis */
+  @media (max-width: 650px) {
+    .item-destaque {
+      flex-direction: column !important;
+      text-align: center;
+    }
+    .caixa-imagem {
+      width: 100%;
+      height: 200px;
+    }
+  }
+
+  /* Ocultar elementos padrão do Jekyll */
   a[href*="github.com"], 
   header ul, 
   header p.view, 
@@ -56,7 +122,6 @@ Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano
     display: none !important; 
   }
 </style>
-{% endraw %}
 
 # Hey, chamo-me Miriam e não sou um AI.
 
@@ -69,25 +134,28 @@ Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano
   <a href="https://www.linkedin.com/in/miriamiferreira/" class="btn-linkedin">Vê o meu LinkedIn Perfil</a>
 </p>
 
-<!-- SECÇÃO COM FLOAT (IMAGENS ADAPTADAS) -->
-<div class="container-classico">
-    
-    <!-- Imagem 1 na Esquerda -->
-    <img src="imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="img-esquerda">
-    <h2>Da Ideia à Estrutura</h2>
-    <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel de forma simples e estruturada.</p>
+<!-- SECÇÃO DE IMAGENS DE FUNDO NAS LATERAIS -->
+<div class="seccao-destaques">
+  
+  <!-- 1. Imagem de fundo na Esquerda, Texto na Direita -->
+  <div class="item-destaque">
+    <div class="caixa-imagem bg-imagem-1"></div>
+    <div class="destaque-texto">
+      <h2>Da Ideia à Estrutura</h2>
+      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
+    </div>
+  </div>
 
-    <!-- Limpa a flutuação para a próxima secção ficar alinhada -->
-    <div style="clear: both; margin-top: 40px;"></div>
-
-    <!-- Imagem 2 na Direita -->
-    <img src="imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="img-direita">
-    <h2>Avançar com Autonomia</h2>
-    <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém e com total confiança no processo.</p>
+  <!-- 2. Texto na Esquerda, Imagem de fundo na Direita -->
+  <div class="item-destaque">
+    <div class="destaque-texto">
+      <h2>Avançar com Autonomia</h2>
+      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém.</p>
+    </div>
+    <div class="caixa-imagem bg-imagem-2"></div>
+  </div>
 
 </div>
-
-<div style="clear: both; margin-top: 40px;"></div>
 
 # Ser criativo também se aprende
 A prática para desenhar projetos, prever custos e avançar sem medo.
@@ -136,8 +204,8 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 | Formato                   | Duração      | Investimento         |
 | ------------------------- | ------------ | -------------------- |
-| 5 sessões                 | 2 horas      | €250                 |
-| Sessão individual         | 1 hora       | €25                  |
+| 5 sessões                 | 2 horas      | €100                 |
+| Sessão individual         | 1 hora       | €5                  |
 | Workshop para organizações | meio-dia/dia | Sob consulta         |
 
 ---
