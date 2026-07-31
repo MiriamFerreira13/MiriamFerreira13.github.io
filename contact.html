@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -7,41 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | Miriam Ferreira</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Mantém a mesma imagem de fundo do teu index.html */
+      body { 
+        background-image: url('imagem-3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #f8fafc;
+      }
+    </style>
 </head>
+<!-- my-12 dá margem superior e inferior, px-4 dá margem nas laterais em telemóveis -->
+<body class="min-h-screen py-12 px-4 flex items-center justify-center">
 
-        <h1 class="text-3xl font-bold text-slate-800 mt-6 mb-2">Vamos Cultivar um Projeto</h1>
+    <!-- CARTÃO CENTRAL COM MARGENS E SOMBRA -->
+    <div class="max-w-xl w-full bg-white/95 backdrop-blur-md p-8 sm:p-10 rounded-2xl shadow-xl border border-slate-100 my-auto">
+        
+        <!-- Botão para Voltar à Página Inicial -->
+        <a href="index.html" class="inline-block text-emerald-600 hover:text-emerald-700 font-semibold text-sm mb-4 transition">
+            ← Voltar ao Início
+        </a>
+
+        <h1 class="text-3xl font-bold text-slate-800 mt-2 mb-2">Vamos Cultivar um Projeto</h1>
         <p class="text-slate-500 mb-8 italic">Encontrar o financiamento certo para o teu negócio específico.</p>
+        
         <div class="space-y-6">
-            <div class="p-4 bg-emerald-50 rounded-lg border-l-4 border-emerald-500">
-                <h3 class="font-bold text-emerald-900">Contacto Direto</h3>
-                <p class="text-emerald-700">Pronto para discutir um "plano de crescimento" para a tua empresa?</p>
+            <div class="p-6 bg-emerald-50/80 rounded-xl border-l-4 border-emerald-500">
+                <h3 class="font-bold text-emerald-900 text-lg">Contacto Direto</h3>
+                <p class="text-emerald-800 mt-1">Pronto para discutir um "plano de crescimento" para a tua empresa?</p>
                 <a href="mailto:miriamferreira13101998@gmail.com?subject=Pedido%20de%20Informa%C3%A7%C3%A3o%20-%20Plano%20de%20Crescimento" 
-                   class="mt-4 inline-block bg-emerald-600 text-white px-6 py-2 rounded-full font-bold hover:bg-emerald-700 transition shadow-md">
+                   class="mt-4 inline-block bg-emerald-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-emerald-700 transition shadow-md hover:shadow-lg">
                     Enviar Email
                 </a>
             </div>
-            <div class="text-slate-600 text-sm space-y-2">
-                <p><strong>Pedidos Frequentes:</strong></p>
-                <ul class="list-disc ml-5 space-y-1">
-                                                                                                         <li>Empreendedorismo feminino</li>
-                                                            <li>Cultura da criatividade</li>
-        <li>Capacitar para o autoemprego</li>
-                                                                                  <li>Cultura como meio de educação</li>
-                    <li>Identificação de Fundos Europeus</li>
-                                                                                                <li>Pinturas, leituras, hobbies aleatórios</li>
-                            <li>Apoio em Marketing Digital</li>
-                                                <li>Involvimento com Partners Nacionais & Internacionais</li>
+
+            <div class="text-slate-600 text-sm space-y-3 pt-2">
+                <p class="font-bold text-slate-800 text-base">Pedidos Frequentes:</p>
+                <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-slate-700">
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Empreendedorismo feminino
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Cultura da criatividade
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Capacitar para o autoemprego
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Cultura como meio de educação
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Fundos Europeus
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <span class="text-emerald-500">✓</span> Apoio em Marketing Digital
+                    </li>
+                    <li class="flex items-center gap-2 sm:col-span-2">
+                        <span class="text-emerald-500">✓</span> Envolvimento com Partners Nacionais & Internacionais
+                    </li>
+                    <li class="flex items-center gap-2 sm:col-span-2 text-slate-500 italic">
+                        <span class="text-emerald-500">✓</span> Pinturas, leituras, hobbies aleatórios
+                    </li>
                 </ul>
             </div>
         </div>
-        <footer class="mt-12 pt-6 border-t border-slate-100 text-center text-slate-400 text-xs">
+
+        <footer class="mt-10 pt-6 border-t border-slate-200/60 text-center text-slate-400 text-xs">
             Miriam Ferreira • Planeadora de Projetos • 2026
         </footer>
     </div>
-</body>
-</html>
 
-</div>
-    </div>
 </body>
 </html>
