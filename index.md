@@ -45,7 +45,7 @@ layout: default
 # Hey, chamo-me Miriam e não sou um AI.
 
 <div class="highlight-box">
-  <strong>É urgente:</strong> Da ideia à estrutura: objetivos, atividades, cronograma e indicadores? Não percas tempo em muita teoria. "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
+  <strong>É urgente:</strong> . "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
 </div>
 
 [Contactos](contact.html) &nbsp; [View LinkedIn Profile](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
@@ -54,22 +54,6 @@ layout: default
 A prática para desenhar projetos, prever custos e avançar sem medo.
 
 ### Eliminar as fontes de distração, liberta um espaço necessário para que possamos produzir grandes coisas. 
-
-<div class="lang-badges">
-  <span>🇵🇹 Português (PT)</span>
-  <span>🇧🇷 Português (BR)</span>
-  <span>🇮🇹 Italiano</span>
-  <span>🇬🇧 English</span>
-</div>
-
-[Contactar Diretamente](https://miriamferreira13.github.io/contact.html) [Ver LinkedIn](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
-
-<div class="feature-bar">
-  <div>👤 Formação Individual</div>
-  <div>🏢 Formação para Organizações</div>
-  <div>🛠️ 100% Prática</div>
-  <div>🌍 4 Idiomas</div>
-</div>
 
 ## O que vais aprender
 
