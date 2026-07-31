@@ -35,69 +35,23 @@ layout: default
     border-radius: 4px;
   }
 
-  /* --- ADAPTAÇÃO DAS IMAGENS FLUTUANTES (FLOAT) --- */
-  .container-classico {
-    margin: 30px 0;
-  }
+<!-- SECÇÃO COM FLOAT (IMAGENS CORRIGIDAS PARA JEKYLL) -->
+<div class="container-classico">
+    
+    <!-- Imagem 1 na Esquerda -->
+    <img src="{{ 'imagem-1.jpg.jpeg' | relative_url }}" alt="Desenhar o Projeto" class="img-esquerda">
+    <h2>Da Ideia à Estrutura</h2>
+    <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel de forma simples e estruturada.</p>
 
-  .container-classico::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+    <!-- Limpa a flutuação para a próxima secção ficar alinhada -->
+    <div style="clear: both; margin-top: 40px;"></div>
 
-  .img-esquerda {
-    float: left;
-    margin-right: 25px;
-    margin-bottom: 15px;
-    max-width: 250px; /* Ajusta o tamanho da imagem */
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
+    <!-- Imagem 2 na Direita -->
+    <img src="{{ 'imagem-2.jpg.jpeg' | relative_url }}" alt="Avançar Sem Medo" class="img-direita">
+    <h2>Avançar com Autonomia</h2>
+    <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, sem depender de mais ninguém e com total confiança no processo.</p>
 
-  .img-direita {
-    float: right;
-    margin-left: 25px;
-    margin-bottom: 15px;
-    max-width: 250px; /* Ajusta o tamanho da imagem */
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  }
-
-  /* ESTILOS DOS CARDS (O que vais aprender) */
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-    margin-top: 20px;
-  }
-
-  .card {
-    background-color: #f0f7f6;
-    padding: 20px;
-    border-radius: 8px;
-    border-top: 4px solid #00a896;
-  }
-
-  .card h3 {
-    margin-top: 0;
-    color: #1a2b3c;
-  }
-
-  /* Responsividade para Telemóveis */
-  @media (max-width: 600px) {
-    .img-esquerda, .img-direita {
-      float: none;
-      display: block;
-      margin: 0 auto 15px auto;
-      max-width: 100%;
-    }
-  }
-
+</div>
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
   header ul, 
