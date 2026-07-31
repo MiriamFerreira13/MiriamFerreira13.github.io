@@ -12,7 +12,7 @@
       color: #1a2b3c; 
       line-height: 1.6;
       /* Imagem de Fundo Global */
-      background-image: url('imagem-1.jpg.jpeg');
+      background-image: url('imagem-1.jpeg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
