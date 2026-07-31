@@ -42,18 +42,19 @@ layout: default
   }
 </style>
 
-# Hi, I'm Miriam 
+# Hey, chamo-me Miriam e não sou um AI.
 
 <div class="highlight-box">
-  <strong>Strategic Funding & Execution:</strong> I identify the specific fund for the specific business DNA. I don't just find funding opportunities; I manage the "last mile" of implementation through <strong>agile project planning</strong>.
+  <strong>É urgente:</strong> Da ideia à estrutura: objetivos, atividades, cronograma e indicadores? Não percas tempo em muita teoria. "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
 </div>
 
-[Contact Me Directly](contact.html) &nbsp; [View LinkedIn Profile](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
+[Contactos](contact.html) &nbsp; [View LinkedIn Profile](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
 
-# Project Planning Dashboard
-Empowering businesses to bridge the gap between innovation and capital.
+# Ser criativo também se aprende
+A prática para desenhar projetos, prever custos e avançar sem medo.
 
-### What my services includes
+### Eliminar as fontes de distração, liberta um espaço necessário para que possamos produzir grandes coisas. 
+
 * **Full Pipeline Management:** Identifying EU, National, and Private funding streams.
 * **Operational Sprints:** Rapid deployment of digital assets, landing pages, and one-pagers.
 * **International Outreach:** Managing cross-border email campaigns and lead generation for create strong synergies.
