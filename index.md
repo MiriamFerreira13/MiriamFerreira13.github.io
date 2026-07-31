@@ -48,7 +48,7 @@ layout: default
   <strong>É urgente:</strong> . "Último" momento para dizer <strong>o que te vem à cabeça</strong>.
 </div>
 
-[Contactos](contact.html) &nbsp; [View LinkedIn Profile](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
+[Contactos](contact.html) &nbsp; [Vê o meu LinkedIn Perfil](https://www.linkedin.com/in/miriamiferreira/){: .btn-linkedin}
 
 # Ser criativo também se aprende
 A prática para desenhar projetos, prever custos e avançar sem medo.
@@ -105,6 +105,9 @@ A prática para desenhar projetos, prever custos e avançar sem medo.
 
 ### Próximos Passos
 
-Tens um projeto em mente e não sabes por onde começar? Marca uma chamada gratuita de 15 minutos para perceber qual o formato de formação mais adequado a ti ou à tua organização.
+Tens um projeto em mente e não sabes por onde começar? 
+Marca uma chamada gratuita de 15 minutos 
+[Envia email](contact.html)
+para perceber qual o formato de formação mais adequado a ti ou à tua organização.
 
 **Disponibilidade atual:** Vagas abertas para o próximo trimestre. Turmas a partir de setembro.
