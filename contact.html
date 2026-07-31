@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -7,9 +6,8 @@
     <title>Contacto | Miriam Ferreira</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* Mantém a mesma imagem de fundo do teu index.html */
       body { 
-        background-image: url('imagem-3.jpg');
+        background-image: url('imagem-1.jpg.jpeg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -18,65 +16,163 @@
       }
     </style>
 </head>
-<!-- my-12 dá margem superior e inferior, px-4 dá margem nas laterais em telemóveis -->
 <body class="min-h-screen py-12 px-4 flex items-center justify-center">
 
-    <!-- CARTÃO CENTRAL COM MARGENS E SOMBRA -->
+    <!-- CARTÃO CENTRAL -->
     <div class="max-w-xl w-full bg-white/95 backdrop-blur-md p-8 sm:p-10 rounded-2xl shadow-xl border border-slate-100 my-auto">
         
-        <!-- Botão para Voltar à Página Inicial -->
-        <a href="index.html" class="inline-block text-emerald-600 hover:text-emerald-700 font-semibold text-sm mb-4 transition">
-            ← Voltar ao Início
-        </a>
+        <!-- BARRA SUPERIOR: BOTÃO VOLTAR + SELETOR DE IDIOMA -->
+        <div class="flex justify-between items-center mb-6 border-b border-slate-100 pb-4">
+            <a href="index.html" id="btn-back" class="text-emerald-600 hover:text-emerald-700 font-semibold text-sm transition">
+                ← Voltar ao Início
+            </a>
 
-        <h1 class="text-3xl font-bold text-slate-800 mt-2 mb-2">Vamos Cultivar um Projeto</h1>
-        <p class="text-slate-500 mb-8 italic">Encontrar o financiamento certo para o teu negócio específico.</p>
+            <!-- Mudar Idioma -->
+            <div class="flex gap-2 text-xs font-bold text-slate-500">
+                <button onclick="changeLang('pt')" id="lang-pt" class="px-2 py-1 rounded bg-emerald-600 text-white transition">PT</button>
+                <button onclick="changeLang('en')" id="lang-en" class="px-2 py-1 rounded hover:bg-slate-100 transition">EN</button>
+                <button onclick="changeLang('it')" id="lang-it" class="px-2 py-1 rounded hover:bg-slate-100 transition">IT</button>
+            </div>
+        </div>
+
+        <!-- CONTEÚDO MULTILINGUE -->
+        <h1 id="title" class="text-3xl font-bold text-slate-800 mb-2">Vamos Cultivar um Projeto</h1>
+        <p id="subtitle" class="text-slate-500 mb-8 italic">Encontrar o financiamento certo para o teu negócio específico.</p>
         
         <div class="space-y-6">
             <div class="p-6 bg-emerald-50/80 rounded-xl border-l-4 border-emerald-500">
-                <h3 class="font-bold text-emerald-900 text-lg">Contacto Direto</h3>
-                <p class="text-emerald-800 mt-1">Pronto para discutir um "plano de crescimento" para a tua empresa?</p>
-                <a href="mailto:miriamferreira13101998@gmail.com?subject=Pedido%20de%20Informa%C3%A7%C3%A3o%20-%20Plano%20de%20Crescimento" 
+                <h3 id="card-title" class="font-bold text-emerald-900 text-lg">Contacto Direto</h3>
+                <p id="card-desc" class="text-emerald-800 mt-1">Pronto para discutir um "plano de crescimento" para a tua empresa?</p>
+                <a id="btn-email" href="mailto:miriamferreira13101998@gmail.com?subject=Pedido%20de%20Informa%C3%A7%C3%A3o" 
                    class="mt-4 inline-block bg-emerald-600 text-white px-6 py-2.5 rounded-full font-bold hover:bg-emerald-700 transition shadow-md hover:shadow-lg">
                     Enviar Email
                 </a>
             </div>
 
             <div class="text-slate-600 text-sm space-y-3 pt-2">
-                <p class="font-bold text-slate-800 text-base">Pedidos Frequentes:</p>
+                <p id="freq-title" class="font-bold text-slate-800 text-base">Pedidos Frequentes:</p>
                 <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-slate-700">
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Empreendedorismo feminino
+                        <span class="text-emerald-500">✓</span> <span id="item-1">Empreendedorismo feminino</span>
                     </li>
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Cultura da criatividade
+                        <span class="text-emerald-500">✓</span> <span id="item-2">Cultura da criatividade</span>
                     </li>
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Capacitar para o autoemprego
+                        <span class="text-emerald-500">✓</span> <span id="item-3">Capacitar para o autoemprego</span>
                     </li>
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Cultura como meio de educação
+                        <span class="text-emerald-500">✓</span> <span id="item-4">Cultura como meio de educação</span>
                     </li>
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Fundos Europeus
+                        <span class="text-emerald-500">✓</span> <span id="item-5">Fundos Europeus</span>
                     </li>
                     <li class="flex items-center gap-2">
-                        <span class="text-emerald-500">✓</span> Apoio em Marketing Digital
+                        <span class="text-emerald-500">✓</span> <span id="item-6">Apoio em Marketing Digital</span>
                     </li>
                     <li class="flex items-center gap-2 sm:col-span-2">
-                        <span class="text-emerald-500">✓</span> Envolvimento com Partners Nacionais & Internacionais
+                        <span class="text-emerald-500">✓</span> <span id="item-7">Envolvimento com Partners Nacionais & Internacionais</span>
                     </li>
                     <li class="flex items-center gap-2 sm:col-span-2 text-slate-500 italic">
-                        <span class="text-emerald-500">✓</span> Pinturas, leituras, hobbies aleatórios
+                        <span class="text-emerald-500">✓</span> <span id="item-8">Pinturas, leituras, hobbies aleatórios</span>
                     </li>
                 </ul>
             </div>
         </div>
 
         <footer class="mt-10 pt-6 border-t border-slate-200/60 text-center text-slate-400 text-xs">
-            Miriam Ferreira • Planeadora de Projetos • 2026
+            Miriam Ferreira • <span id="footer-role">Planeadora de Projetos</span> • 2026
         </footer>
     </div>
 
+    <!-- SCRIPT DE TRADUÇÃO -->
+    <script>
+        const translations = {
+            pt: {
+                btnBack: "← Voltar ao Início",
+                title: "Vamos Cultivar um Projeto",
+                subtitle: "Encontrar o financiamento certo para o teu negócio específico.",
+                cardTitle: "Contacto Direto",
+                cardDesc: "Pronto para discutir um \"plano de crescimento\" para a tua empresa?",
+                btnEmail: "Enviar Email",
+                freqTitle: "Pedidos Frequentes:",
+                item1: "Empreendedorismo feminino",
+                item2: "Cultura da criatividade",
+                item3: "Capacitar para o autoemprego",
+                item4: "Cultura como meio de educação",
+                item5: "Fundos Europeus",
+                item6: "Apoio em Marketing Digital",
+                item7: "Envolvimento com Partners Nacionais & Internacionais",
+                item8: "Pinturas, leituras, hobbies aleatórios",
+                footerRole: "Planeadora de Projetos"
+            },
+            en: {
+                btnBack: "← Back to Home",
+                title: "Let's Grow a Project",
+                subtitle: "Finding the right funding for your specific business.",
+                cardTitle: "Direct Contact",
+                cardDesc: "Ready to discuss a \"growth plan\" for your business?",
+                btnEmail: "Send Email",
+                freqTitle: "Frequent Requests:",
+                item1: "Female entrepreneurship",
+                item2: "Culture of creativity",
+                item3: "Empowering self-employment",
+                item4: "Culture as an educational tool",
+                item5: "European Funds",
+                item6: "Digital Marketing Support",
+                item7: "Engagement with National & International Partners",
+                item8: "Paintings, readings, random hobbies",
+                footerRole: "Project Planner"
+            },
+            it: {
+                btnBack: "← Torna alla Home",
+                title: "Coltiviamo un Progetto",
+                subtitle: "Trovare il finanziamento giusto per la tua attività specifica.",
+                cardTitle: "Contatto Diretto",
+                cardDesc: "Pronto/a a discutere un \"piano di crescita\" per la tua impresa?",
+                btnEmail: "Invia Email",
+                freqTitle: "Richieste Frequenti:",
+                item1: "Imprenditoria femminile",
+                item2: "Cultura della creatività",
+                item3: "Promozione del lavoro autonomo",
+                item4: "Cultura come strumento educativo",
+                item5: "Fondi Europei",
+                item6: "Supporto in Marketing Digitale",
+                item7: "Coinvolgimento con Partner Nazionali e Internazionali",
+                item8: "Pittura, letture, hobby casuali",
+                footerRole: "Pianificatrice di Progetti"
+            }
+        };
+
+        function changeLang(lang) {
+            // Atualizar os textos
+            document.getElementById('btn-back').innerText = translations[lang].btnBack;
+            document.getElementById('title').innerText = translations[lang].title;
+            document.getElementById('subtitle').innerText = translations[lang].subtitle;
+            document.getElementById('card-title').innerText = translations[lang].cardTitle;
+            document.getElementById('card-desc').innerText = translations[lang].cardDesc;
+            document.getElementById('btn-email').innerText = translations[lang].btnEmail;
+            document.getElementById('freq-title').innerText = translations[lang].freqTitle;
+            document.getElementById('item-1').innerText = translations[lang].item1;
+            document.getElementById('item-2').innerText = translations[lang].item2;
+            document.getElementById('item-3').innerText = translations[lang].item3;
+            document.getElementById('item-4').innerText = translations[lang].item4;
+            document.getElementById('item-5').innerText = translations[lang].item5;
+            document.getElementById('item-6').innerText = translations[lang].item6;
+            document.getElementById('item-7').innerText = translations[lang].item7;
+            document.getElementById('item-8').innerText = translations[lang].item8;
+            document.getElementById('footer-role').innerText = translations[lang].footerRole;
+
+            // Destacar o botão ativo
+            ['pt', 'en', 'it'].forEach(l => {
+                const btn = document.getElementById(`lang-${l}`);
+                if (l === lang) {
+                    btn.className = "px-2 py-1 rounded bg-emerald-600 text-white transition font-bold";
+                } else {
+                    btn.className = "px-2 py-1 rounded hover:bg-slate-100 text-slate-500 transition font-bold";
+                }
+            });
+        }
+    </script>
 </body>
 </html>
