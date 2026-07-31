@@ -34,25 +34,20 @@ layout: default
     border-radius: 4px;
   }
 
-<!-- SECÇÃO COM AS IMAGENS NAS LATERAIS -->
-<div class="seccao-destaques">
+<div class="container-classico">
+    
+    <!-- Imagem Alinhada à Esquerda -->
+    <img src="https://via.placeholder.com/150" alt="Exemplo Esquerda" class="img-esquerda">
+    <p>Este parágrafo demonstra como o texto flui ao redor de uma imagem alinhada à esquerda. A imagem 'flutua' para o lado e o texto ocupa o espaço restante, ajustando-se automaticamente. É ótimo para layouts simples onde se deseja um efeito de revista.</p>
+
+    <p style="clear: both; margin-top: 20px;">Utilizamos 'clear: both' aqui apenas para separar os exemplos visualmente.</p>
+
+    <!-- Imagem Alinhada à Direita -->
+    <img src="https://via.placeholder.com/150" alt="Exemplo Direita" class="img-direita">
+    <p>Neste caso, a imagem está alinhada à direita. O texto começa à esquerda e contorna a imagem assim que a encontra. É importante adicionar margens (margins) às imagens flutuantes para que o texto não fique colado à borda da foto.</p>
+
+</div>
   
-  <div class="item-destaque">
-    <img src="./imagem-1.jpg.jpeg" alt="Desenhar o Projeto" class="destaque-img">
-    <div class="destaque-texto">
-      <h2>Da Ideia à Estrutura</h2>
-      <p>Desenhar projetos sem te perderes em teorias complexas. Definimos objetivos claros, atividades e um cronograma prático para tirares as tuas ideias da cabeça e as colocares no papel.</p>
-    </div>
-  </div>
-
-  <div class="item-destaque">
-    <div class="destaque-texto">
-      <h2>Avançar com Autonomia</h2>
-      <p>Aprende a prever custos, encontrar parceiros e fontes de financiamento. Um plano passo a passo concebido para começares a implementar imediatamente, mesmo sem experiência prévia.</p>
-    </div>
-    <img src="./imagem-2.jpg.jpeg" alt="Avançar Sem Medo" class="destaque-img">
-  </div>
-
 </div>
   /* 1. Hides GitHub Link | 2. Hides sidebar lists | 3. Hides Footer text */
   a[href*="github.com"], 
